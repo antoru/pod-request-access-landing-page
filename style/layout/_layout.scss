@@ -1,0 +1,29 @@
+body {
+
+    @include main_font_regular;
+    font-size: 1.6rem;
+
+    color: $bodyColor;
+    background-color: $bodyBackground;
+
+    strong {
+        @include main_font_bold;
+    }
+
+    //madiaquery
+    @include big_device {}
+
+    @include medium_device_max {}
+
+    @include medium_device {}
+
+    @include medium_device_min {}
+
+    @include small_device {}
+}
+
+.component {
+
+    width: 100%;
+
+}
