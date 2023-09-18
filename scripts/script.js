@@ -8,7 +8,7 @@ const validateform = () => {
         let message = document.querySelector('.main__form__message');
 
         if (email.match(regEx)) {
-            // console.log('match!');
+            
             field.value = '';
 
             message.textContent = 'Thank you!';
@@ -22,7 +22,6 @@ const validateform = () => {
         }
 
         if (!email) {
-            //console.log(`Oops! Please add your email`);
             
             message.textContent = 'Oops! Please add your email';
             message.classList.add('main__form__message--error');
@@ -34,7 +33,6 @@ const validateform = () => {
             return false;
         }
 
-        //console.log(`don't match!`);
         message.textContent = 'Oops! Please check your email';
         message.classList.add('main__form__message--error');
 
