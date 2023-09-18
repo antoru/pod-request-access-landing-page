@@ -43,6 +43,12 @@ Users should be able to:
 - [Bem](https://en.bem.info/) - For classes's naming
 - Vanilla Js
 
+### Deploying the project
+
+Project hosted for free, thanks to:
+
+- [Github pages](https://pages.github.com/)
+
 ## Author
 
 - Linkedin - [https://www.linkedin.com/in/antoru/](https://www.linkedin.com/in/antoru/)
