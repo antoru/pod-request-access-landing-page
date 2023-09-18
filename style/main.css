@@ -180,12 +180,22 @@ body strong {
 }
 .page__container__bottomBg {
   position: absolute;
-  bottom: -5.2rem;
-  left: 104.3rem;
 }
 @media (max-width: 767px) {
   .page__container__bottomBg {
     display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1129px) {
+  .page__container__bottomBg {
+    bottom: 0;
+    left: 3rem;
+  }
+}
+@media (min-width: 1130px) {
+  .page__container__bottomBg {
+    bottom: -5.2rem;
+    left: 104.3rem;
   }
 }
 
@@ -411,6 +421,7 @@ body strong {
   font-style: normal;
   font-size: 1.4rem;
   cursor: pointer;
+  transition: all 0.3s;
 }
 @media (max-width: 767px) {
   .main__form__button {
@@ -421,6 +432,9 @@ body strong {
   .main__form__button {
     margin-left: 0.8rem;
   }
+}
+.main__form__button:hover {
+  background-color: #B3FFE2;
 }
 .main__form__message {
   font-size: 1.2rem;
