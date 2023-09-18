@@ -32,6 +32,24 @@
 
 //fonts
 
+@mixin main_font_thin {
+    font-family: $mainFont;
+    font-weight: $thin;
+    font-style: normal;
+}
+
+@mixin main_font_extralight {
+    font-family: $mainFont;
+    font-weight: $extralight;
+    font-style: normal;
+}
+
+@mixin main_font_light {
+    font-family: $mainFont;
+    font-weight: $light;
+    font-style: normal;
+}
+
 @mixin main_font_regular {
     font-family: $mainFont;
     font-weight: $regular;
@@ -59,6 +77,12 @@
 @mixin main_font_extrabold {
     font-family: $mainFont;
     font-weight: $extrabold;
+    font-style: normal;
+}
+
+@mixin main_font_black {
+    font-family: $mainFont;
+    font-weight: $black;
     font-style: normal;
 }
 

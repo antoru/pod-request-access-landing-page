@@ -3,26 +3,32 @@
 // -----------------------------------------------------------------------------
 
 //fonts
-$mainFont:'Garet', sans-serif;
+$mainFont:'Chivo', sans-serif;
 
+$thin:100;
+$extralight:200;
+$light:300;
 $regular:400;
 $medium:500;
 $semibold:600;
 $bold:700;
 $extrabold:800;
+$black:900;
 
 // colors
 
-$bodyColor:#000000;
-$bodyBackground:#ffffff;
-
-
+$bodyColor:white;
+$bodyBackground:#121725;
+$mainGreen:#54E6AF;
+$lightGrey:#C2CBE5;
+$darkGrey:#2c344b;
+$mainRed:#FB3E3E;
 
 ///breakpoint
-$breakpoint-desktop-min: 1025px;
-$breakpoint-tablet-max: 1024px;
-$breakpoint-tablet-min: 482px;
-$breakpoint-mobile-max: 481px;
+$breakpoint-desktop-min: 1130px;
+$breakpoint-tablet-max: 1129px;
+$breakpoint-tablet-min: 768px;
+$breakpoint-mobile-max: 767px;
 
 // @media(min-width:$breakpoint-desktop-min){}
 // @media(min-width:$breakpoint-tablet-min) and (max-width:$breakpoint-tablet-max){}

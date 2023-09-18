@@ -1,19 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Pod request access landing page</title>
+
+  <link rel="stylesheet" href="./style/main.css">
+
+  <script src="./scripts/script.js" defer></script>
 </head>
+
 <body>
-  Publish your podcasts everywhere.
 
-  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-  Apple Podcasts, Google Podcasts, Pocket Casts and more!
+  <div class="page">
+    <div class="page__container">
 
-  Request access
+      <header class="header">
+        <div class="header__logo">
+          <img src="./assets/desktop/logo.svg" alt="">
+        </div>
+      </header>
+
+      <main class="main">
+
+        <h1 class="main__title">
+          <span class="main__title--green">Publish your podcasts</span>
+          <br>
+          everywhere.
+        </h1>
+
+        <p class="main__desc">
+          Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts,
+          Google Podcasts, Pocket Casts and more!
+        </p>
+
+        <div class="main__logos">
+
+          <div class="main__logos__item">
+            <img src="./assets/desktop/spotify.svg" alt="" srcset="">
+          </div>
+
+          <div class="main__logos__item">
+            <img src="./assets/desktop/apple-podcast.svg" alt="" srcset="">
+          </div>
+
+          <div class="main__logos__item">
+            <img src="./assets/desktop/google-podcasts.svg" alt="" srcset="">
+          </div>
+
+          <div class="main__logos__item">
+            <img src="./assets/desktop/pocket-casts.svg" alt="" srcset="">
+          </div>
+
+        </div>
+
+        <form class="main__form">
+
+          <div class="main__form__container">
+            <input type="text" class="main__form__email" name="email" placeholder="Email address">
+            <button class="main__form__button">Request Access</button>
+          </div>
+
+          <div class="main__form__message">
+            text injected by js
+          </div>
+        </form>
+
+      </main>
+
+      <div class="page__container__topBg">
+
+        <picture>
+          <!-- img desktop -->
+          <source srcset="./assets/desktop/image-host.jpg" media="(min-width: 1130px)">
+          <!-- img tablet -->
+          <source srcset="./assets/tablet/image-host.jpg" media="(max-width: 1129px)">
+          <img src="./assets/tablet/image-host.jpg" alt="">
+        </picture>
+      </div>
+
+      <div class="page__container__bottomBg">
+        <img src="./assets/desktop/bg-pattern-dots.svg" alt="">
+      </div>
+
+    </div>
+  </div>
+
 </body>
+
 </html>
